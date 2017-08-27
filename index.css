@@ -1,0 +1,17 @@
+:root{
+    background-image: url("assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    color:white;
+    font-size:8em;
+    font-family: industry-inc-3d, sans-serif;
+    font-style: normal;
+}
+
+nav{
+    color:white;
+    font-size:2em;
+}

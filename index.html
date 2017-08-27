@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>BIMMEL</title>
+    <script src="https://dev.mavo.io/dist/mavo.js"></script>
+    <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <main mv-app="bimmel.us"  mv-plugins="tinymce" mv-storage="https://github.com/kaytie/bimmel.us">
+        <nav>
+            <div class="logo">
+                <div>
+                    BIM
+                </div>
+                <div>
+                    MEL
+                </div>
+            </div>
+            <ul class="menu">
+                <li>Hire me, Fire me</li>
+                <li>Projects</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <img property="image" alt="fuubar">
+
+            <div class="portfolio">
+                    <a property="painting" typeof="Painting" mv-multiple mv-attribute="none">
+                            <img property="image" />
+                            <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
+                    </a>
+                </div>
+        <footer>
+        Images, content, etc  &copy 2017 Tiemo Hunger
+        </footer>
+    </div>
+ 
+
+</body>
+
+</html>
