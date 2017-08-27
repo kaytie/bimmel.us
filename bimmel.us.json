@@ -13,13 +13,13 @@
 			"menuLinkText": "Hire me, Fire me"
 		},
 		{
-			"menuLinkText": "Current streams"
+			"menuLinkText": "LinkText"
 		},
 		{
-			"menuLinkText": "Projects"
+			"menuLinkText": "LinkText"
 		},
 		{
-			"menuLinkText": "About me"
+			"menuLinkText": "LinkText"
 		}
 	]
 }
