@@ -7,5 +7,19 @@
 	"hireMeFireMe": "<p><br data-mce-bogus=\"1\"></p>",
 	"menuLinkText": [
 		"BIMMEL"
+	],
+	"collection": [
+		{
+			"menuLinkText": "Hire me, Fire me"
+		},
+		{
+			"menuLinkText": "Current streams"
+		},
+		{
+			"menuLinkText": "Projects"
+		},
+		{
+			"menuLinkText": "About me"
+		}
 	]
 }
