@@ -10,16 +10,7 @@
 	],
 	"collection": [
 		{
-			"menuLinkText": "Hire me, Fire me"
-		},
-		{
-			"menuLinkText": "LinkText"
-		},
-		{
-			"menuLinkText": "LinkText"
-		},
-		{
-			"menuLinkText": "LinkText"
+			"menuLinkText": "menuLinkText"
 		}
 	]
 }
