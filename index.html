@@ -1,43 +1,53 @@
-<<<<<<< HEAD
-<html>
+<html DOCTYPE>
 
 <head>
     <title>BIMMEL</title>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'aam7jsr',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
     <script src="https://dev.mavo.io/dist/mavo.js"></script>
+
     <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
     <link rel="stylesheet" href="index.css" />
+
+
 </head>
 
 <body>
-    <main mv-app="bimmel.us"  mv-plugins="tinymce" mv-storage="https://github.com/kaytie/bimmel.us">
-        <nav>
-            <div class="logo">
-                <div>
-                    BIM
+    <main mv-app="bimmel.us" mv-plugins="tinymce" mv-bar="none" mv-storage="https://github.com/kaytie/bimmel-dev5.us">
+        <section class="cover">
+            <nav>
+                <div class="logo tk-industry-inc-3d">
+                    <div>
+                        BIM
+                    </div>
+                    <div>
+                        MEL
+                    </div>
                 </div>
-                <div>
-                    MEL
-                </div>
-            </div>
-            <ul class="menu">
-                <li>Hire me, Fire me</li>
-                <li>Projects</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <img property="image" alt="fuubar">
+                <section class="menu">
+                    <a mv-multiple mv-attribute="none" property="menuLinkText" mv-default="LinkText" href="#[idify(menuLinkText)]">menuLinkText</a>
+                </section>
+            </nav>
+        </section>
 
-            <div class="portfolio">
-                    <a property="painting" typeof="Painting" mv-multiple mv-attribute="none">
-                            <img property="image" />
-                            <p property="name" mv-default="[readable(to(filename(image), '.'))]"></p>
-                    </a>
-                </div>
+        <section mv-multiple id="[idify(sectiontitle)]">
+            <h1 property="sectiontitle" class="tinymce" mv-default="Section Title"></h1>
+            <div class="tinymce" property="sectiontext" mv-default="sectioncontenthere"></div>
+        </section>
         <footer>
-        Images, content, etc  &copy 2017 Tiemo Hunger
+            <div>
+                &copy 2017 Tiemo Hunger
+            </div>
         </footer>
-    </div>
- 
+        </div>
 
 </body>
 

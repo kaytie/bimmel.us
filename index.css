@@ -1,17 +1,44 @@
-:root{
+body{
+   
+    font-family: sans-serif;
+    font-style: normal;
+    color:white;
+    margin:0px;
+}
+.cover{
     background-image: url("assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height:120vh;
+}
+section { height: 100vh;}
+
+nav{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.menu a{
+display:block;
+}
+
+
+.menu{
+    margin-right:50px;
+    margin-top:50px;
 }
 
 .logo{
-    color:white;
-    font-size:8em;
-    font-family: industry-inc-3d, sans-serif;
-    font-style: normal;
+    margin-left:50px;
+    font-size:3em;
+    font-family: sans-serif;
 }
-
+.logo div{
+    margin:3px;
+}
+.
 nav{
     color:white;
     font-size:2em;
 }
+
