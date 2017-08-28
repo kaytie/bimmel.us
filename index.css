@@ -11,15 +11,23 @@ body{
     background-size: cover;
     height:120vh;
 }
-section { height: 100vh;}
+section { height: 100vh; background-color:gray; border-bottom:1px solid black; margin-top:0px;}
 
 nav{
      display: flex;
     flex-direction: row;
     justify-content: space-between; 
 }
+
 .menu a{
 display:block;
+background-color:rgba(10,10,10,0.7);
+padding:10px;
+color:peachpuff;
+text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
 }
 
 
@@ -36,7 +44,7 @@ display:block;
 .logo div{
     margin:3px;
 }
-.
+
 nav{
     color:white;
     font-size:2em;
